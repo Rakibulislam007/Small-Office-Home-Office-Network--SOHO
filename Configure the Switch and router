@@ -1,0 +1,12 @@
+make it trunk interfase
+int fa0/4
+switchportmode trunk
+do wr
+------------------
+configure the router
+--------------------
+>>en
+>>config t
+>>int gig0/0
+>>no sh
+>>do wr
