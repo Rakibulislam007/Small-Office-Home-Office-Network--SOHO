@@ -1,0 +1,15 @@
+subnetting vlan's
+-----------
+int gig0/0.10
+encapculation dot1Q 10
+192.168.1.1 255.255.255.192
+
+int gig0/0.20
+encapculation dot1Q 20
+192.168.1.65 255.255.255.192
+
+int gig0/0.30
+encapculation dot1Q 30
+192.168.1.129 255.255.255.192
+
+do wr
